@@ -4,6 +4,7 @@
 
 #### 1. Virtual Machine Monitor / Manager (Hypervisor)
 **Definition**: A layer of software/firmware managing multiple VMs on a single physical host.
+![Pasted image 20240622205912.png](/img/user/Pasted%20image%2020240622205912.png)
 
 - **Types of Hypervisors**:
     - **Type 1 (Bare Metal)**: Runs directly on hardware. Examples: VMware ESXi, Microsoft Hyper-V Server, Xen.
@@ -32,6 +33,8 @@
     
 - **Key Providers**: VMware, Microsoft, Citrix, Oracle
 #### 2. Implementation Types
+
+![Pasted image 20240622210141.jpg](/img/user/Pasted%20image%2020240622210141.jpg)
 - **Type 1 Hypervisor**:
     - Direct control over hardware.
     - Efficient performance.
@@ -42,6 +45,7 @@
     - Easier setup.
     - Used for desktops/laptops.
 #### 3. Para-Virtualization
+![Pasted image 20240622210244.png](/img/user/Pasted%20image%2020240622210244.png)
 - **Implementation**: Modifies the guest OS for efficient communication with the host.
 - **Example**: Xen (uses Xen-aware Linux kernel).
 - **Characteristics**: Improved performance but requires guest OS modifications.
@@ -56,7 +60,7 @@
 - **Advantages**: Cross-platform compatibility, low cost, space efficiency.
 - **Disadvantages**: Slower performance, security risks.
 #### 6. Microkernels and Exokernels
-- **Microkernels**:
+- **Microkernels**:![Pasted image 20240622210348.png](/img/user/Pasted%20image%2020240622210348.png)
     - **Principle**: Minimize kernel functionality, delegate services to user-space.
     - **Structure**: Core services in the microkernel, additional services in user-space.
     - **Advantages**: Modularity, reliability.
@@ -64,6 +68,7 @@
     - **Examples**: Mach, L4.
     
 - **Exokernels**:
+	![Pasted image 20240622210427.png](/img/user/Pasted%20image%2020240622210427.png)
     - **Principle**: Expose hardware resources directly to applications.
     - **Structure**: Minimal abstractions, direct hardware management by applications.
     - **Advantages**: Performance, flexibility.
