@@ -4,3 +4,5 @@
 
 - [[OS-LM17/VIRTUALIZATION and TYPES\|VIRTUALIZATION and TYPES]] - LM17
 - [[OS-LM18/HyperVisors and Virtual Machines\|HyperVisors and Virtual Machines]] - LM18
+- [[OS-LM19/Virtualization and Security\|Virtualization and Security]] - LM19
+- [[OS-LM20/Operating Systems for Quantum Computers\|Operating Systems for Quantum Computers]] - LM20
