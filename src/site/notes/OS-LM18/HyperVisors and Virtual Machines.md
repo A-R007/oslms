@@ -3,8 +3,8 @@
 ---
 
 #### 1. Virtual Machine Monitor / Manager (Hypervisor)
-- **Definition**: A layer of software/firmware managing multiple VMs on a single physical host.
-    
+**Definition**: A layer of software/firmware managing multiple VMs on a single physical host.
+
 - **Types of Hypervisors**:
     - **Type 1 (Bare Metal)**: Runs directly on hardware. Examples: VMware ESXi, Microsoft Hyper-V Server, Xen.
     - **Type 2 (Hosted)**: Runs on an existing OS. Examples: VMware Workstation, Oracle VirtualBox, Parallels Desktop.
