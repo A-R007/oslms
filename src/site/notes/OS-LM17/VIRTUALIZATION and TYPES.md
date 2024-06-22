@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/os-lm-17/virtualization-and-types/","tags":["gardenEntry"]}
+{"dg-home":true,"dg-publish":true,"permalink":"/os-lm-17/virtualization-and-types/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 - **DEFINITION**:
